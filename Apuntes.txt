@@ -1,0 +1,76 @@
+<html>
+	<body>
+		<h1>Hello</h1>
+		<script type="text/javascript">
+			document.write("<h1>Hello</h1>");
+			console.log("Hello this is a log");
+			console.warn("Warning");
+			console.error("Error 412");
+		</script>
+	</body>
+</html> 
+
+/*Javascript lo invocas como un metodo dentro de html se indica que se utilizara javascript como tal y luego hay varias
+funciones que se pueden utilizar dentro de Javascript document son accciones que relizas de forma directa en el archivo
+y console son las que utilizas para dejar informacion en la consola o para hacer trigger a warnings o errores**/
+
+<html1>
+	<body>
+		<h1 id="header">Hello</h1>
+		<input type="text" id="inp"/>
+		<script type="text/javascript">
+			document.getElementById("header").innerHTML ="I like Pausiey";
+		</script>
+	</body>
+</html1>
+
+<html2>
+	<body>
+		<h1 id="header">Hello</h1>
+		<input type="text" id="inp"/>
+		<script type="text/javascript">
+			//document.getElementById("inp").value = "hello";
+		</script>
+	</body>
+</html2>
+
+/*id nos permite crear identificadores para elementos con los que queremos trabajar o modificar en este caso header
+hace referencia al titulo 1 en el que podemos realizar opciones como modificar para hacerlo utilizamos getElementById
+para buscar el id y con innerHTML hacemos referencia a que esta en este mismo archivo y luego con el igual modificamos 
+el nombre. En este caso volvemos a utilizar getElementById que esta relacionado con el Input que hemos creado **/
+
+
+<html>
+	<body>
+		<h1 id="header">Hello</h1>
+		<input type="text" id="inp"/>
+		<script type="text/javascript">
+			var x = 666;
+			 x = 69;
+			console.log(x); 
+		</script>
+	</body>
+</html>
+
+Con var definimos variables para poder asignar valores en este caso asignamos el valor a x y luego se indica que se 
+muestre por pantalla (consola) luego tambien podemos cambiar el valor solo indicarlo posteriormente.
+
+<html>
+	<body>
+		<h1 id="header">Hello</h1>
+		<input type="text" id="inp"/>
+		<script type="text/javascript">
+			var name = "Poronga";
+			console.log(name);
+			var MyNameIs = 0;
+			MyNameIs = name;
+			name = "hello";
+
+			console.log(MyNameIs);
+			console.log(name);
+
+		</script>
+	</body>
+</html>
+
+En el desarrollo de unscript es importante el orden en que se indican las instruccione de eso varia el resultado.
